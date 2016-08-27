@@ -1,0 +1,11 @@
+CACHE MANIFEST
+
+# Offline cache v1.1
+# html files
+index.html
+
+# css files
+style.css
+
+# other files
+vCard.vcf
