@@ -1,0 +1,10 @@
+BEGIN:VCARD
+N:Mostmans;Wim;;;
+ADR;INTL;PARCEL;WORK:;;Genenbemdestraat, 14;Ham;Limburg;3945;Belgium
+ADR;DOM;PARCEL;HOME:;;Genenbemdestraat, 14;Ham;Limburg;3945;Belgium
+EMAIL;INTERNET:wim@sitebase.be
+ORG:Sitebase
+TEL;WORK:+32 472 505 082
+TITLE:Owner
+URL;WORK:https://www.sitebase.be
+END:VCARD
