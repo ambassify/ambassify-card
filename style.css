@@ -1,6 +1,10 @@
+* {
+    margin: 0;
+    padding: 0;
+}
 body,
 html {
-  background: #fff;
+  background: #fafafa;
   margin: 0;
   padding: 0;
   font-family: Roboto, "Open Sans", "Helvetica Neue", sans-serif;
@@ -17,21 +21,41 @@ html {
 }
 
 * + * {
-  margin-top: .7em;
+  margin-top: .8em;
 }
 
 h2 {
-    margin-bottom: 0;
+    font-size: 1.2em;
 }
 
+a:link, a:active, a:visited {
+    color: #df3a4a;
+    text-decoration: none;
+}
+a:hover {
+    border-bottom: 1px solid #df3a4a;
+}
+
+.wrapper {
+    margin: 0 auto;
+    max-width: 450px;
+}
 .card {
-  margin: 20px auto;
-  max-width: 400px;
-  text-align: center;
+    padding: 30px;
+    margin: 15px;
+    text-align: center;
+    background: #fff;
+    box-shadow: 0 1px 4px rgba(0,0,0,.04);
+    border: 1px solid rgba(0,0,0,.09);
+    border-radius: 3px;
+}
+.card__visual {
+    max-width: 300px;
+    margin-top: 0;
 }
 
 .table {
-  width: 100%;
+    width: 100%;
 }
 
 .table > * {
@@ -39,13 +63,19 @@ h2 {
 }
 
 .table__key {
-  text-align: right;
+    text-align: right;
   color: rgba(0, 0, 0, .44);
   width: 50%;
   padding-right: 10px;
+  font-size: .8em;
 }
 
 .table__value {
   text-align: left;
   width: 50%;
+}
+
+@media only screen and (max-device-width: 480px) {
+    .card { margin: 5px; }
+    .hm { display: none }
 }
