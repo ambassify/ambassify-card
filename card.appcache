@@ -1,6 +1,6 @@
 CACHE MANIFEST
 
-# Offline cache v1.1
+# Offline cache v1.2
 # html files
 index.html
 
@@ -8,4 +8,5 @@ index.html
 style.css
 
 # other files
+favicon.ico
 vCard.vcf
