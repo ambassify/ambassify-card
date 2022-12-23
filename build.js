@@ -5,7 +5,7 @@ const data = require('./data.json');
 const vcard = fs.readFileSync('src/vCard.vcf');
 const cardTemplate = Handlebars.compile(vcard.toString());
 
-const page = fs.readFileSync('src/index.html');
+const page = fs.readFileSync('src/card.html');
 const pageTemplate = Handlebars.compile(page.toString());
 
 Handlebars.registerHelper('url', function () {
