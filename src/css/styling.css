@@ -9,5 +9,7 @@
 /* Components */
 @import './header.css';
 @import './main.css';
+@import './overlay.css';
+@import './business-card.css';
 @import './footer.css';
 @import './card.css';
