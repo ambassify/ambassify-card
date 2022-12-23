@@ -4,7 +4,7 @@ const data = require('./data.json');
 console.log(data.persons);
 
 // Compile the source code
-const compiledFunction = pug.compileFile('test.html');
+const compiledFunction = pug.compileFile('src/index.html');
 
 data.persons.forEach((person) => {
     const content = compiledFunction(person);
