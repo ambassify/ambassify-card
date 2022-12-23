@@ -1,0 +1,16 @@
+.social {
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+
+    a {
+        line-height: 1;
+    }
+
+    a,
+    path {
+        color: var(--color-white);
+        fill: currentColor;
+        margin: 0;
+    }
+}
