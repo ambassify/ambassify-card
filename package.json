@@ -4,6 +4,7 @@
   "description": "NFC-sharable Online Ambassify business cards",
   "main": "src/index.html",
   "scripts": {
+    "build": "rm -rf dist/* && cp -R src/ dist/ && node build.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -21,5 +22,8 @@
   "bugs": {
     "url": "https://github.com/ambassify/ambassify-card/issues"
   },
-  "homepage": "https://github.com/ambassify/ambassify-card#readme"
+  "homepage": "https://github.com/ambassify/ambassify-card#readme",
+  "devDependencies": {
+    "pug": "^3.0.2"
+  }
 }
