@@ -4,9 +4,9 @@
   "description": "NFC-sharable Online Ambassify business cards",
   "main": "src/index.html",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rm -rf dist/* && cp -R src/ dist/ && node build.js && npx postcss src/css/main.css --dir public/",
     "watch": "npx postcss src/css/main.css --dir public/ --map --verbose --watch",
-    "build": "npx postcss src/css/main.css --dir public/"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
@@ -41,6 +41,7 @@
     "postcss-import": "^15.1.0",
     "postcss-mixins": "^9.0.4",
     "postcss-nested": "^6.0.0",
-    "postcss-preset-env": "^7.8.3"
+    "postcss-preset-env": "^7.8.3",
+    "pug": "^3.0.2"
   }
 }
