@@ -1,9 +1,6 @@
-/* Base */
-@import './_html.css';
-@import './_body.css';
-@import './_nojs.css';
-@import './_fonts.css';
-@import './_img.css';
-
-/* Components */
-@import './card.css';
+main {
+    display: grid;
+    gap: 3rem;
+    grid-template-columns: repeat(auto-fit, minmax(23.4rem, 1fr));
+    margin-bottom: 5rem;
+}
