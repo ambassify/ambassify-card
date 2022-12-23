@@ -3,10 +3,12 @@ body {
 
     display: grid;
     grid-template:
-        "header" auto
+        "header" 0fr
         "main" auto
         "footer" 5rem / auto
     ;
+
+    align-items: start;
 
     width: 100%;
     min-width: var(--min-width);

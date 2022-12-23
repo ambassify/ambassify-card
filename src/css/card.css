@@ -3,24 +3,16 @@
 
     position: relative;
     display: grid;
-
-    align-items: normal;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
     column-gap: var(--gap);
+    align-items: normal;
 
-    + .card {
-        margin-top: 3rem;
-    }
-
-    &.-person {
-        grid-template-columns: 1fr;
-        grid-template-rows: 1fr;
-
-        width: 23.4rem;
-        height: 31.2rem;
-        margin: 0;
-        border-radius: .8rem;
-        overflow: hidden;
-    }
+    width: min(100%, 26.9rem);
+    height: min(100vh, 31.2rem);
+    margin: 0;
+    border-radius: .8rem;
+    overflow: hidden;
 }
 
 .card__image {
@@ -28,18 +20,12 @@
     border-radius: 1rem;
     overflow: hidden;
 
-    &.-aspect-ratio {
-        aspect-ratio: 16 / 9;
-    }
+    grid-column: 1 / -1;
+    grid-row: 1 / -1;
 
-    .card.-person & {
-        grid-column: 1 / -1;
-        grid-row: 1 / -1;
-
-        position: relative;
-        z-index: 0;
-        border-radius: 0;
-    }
+    position: relative;
+    z-index: 0;
+    border-radius: 0;
 
     img {
         display: block;
@@ -52,13 +38,11 @@
         transition: transform .3s ease-in-out;
         transform: scale(1);
 
+        max-width: 26.9rem;
+        max-height: 31.2rem;
+
         .card:hover & {
             transform: scale(1.1);
-        }
-
-        .card.-person & {
-            max-width: 23.4rem;
-            max-height: 31.2rem;
         }
     }
 }
@@ -72,35 +56,21 @@
 
 .card__body {
     grid-area: body;
+    grid-column: 1 / -1;
+    grid-row: 1 / -1;
+    z-index: 1;
 
-    .card.-person & {
-        grid-column: 1 / -1;
-        grid-row: 1 / -1;
-        z-index: 1;
+    align-self: end;
+    padding: 1rem;
 
-        align-self: end;
-        padding: 1rem;
-
-        background: linear-gradient(to bottom, rgba(#2A3346, 0), rgba(#2A3346, 1));
-    }
-}
-
-.card__content {
-    &.-reset {
-        > * {
-            margin: 0;
-            padding: 0;
-            font-size: clamp(1.5rem, 0.08403361344537823vw + 1.476470588235294rem, 1.6rem);
-            line-height: 1.82;
-            color: var(--color-gray-600);
-        }
-    }
+    background: linear-gradient(to bottom, rgba(#000, 0), rgba(#000, 1));
 }
 
 .card__text {
     font-size: 1.6rem;
     line-height: 1.5;
     margin: 0;
+    color: var(--color-white);
 
     &.-emphasized {
         font-weight: var(--font-weight-bold);
@@ -114,26 +84,6 @@
         font-size: 1.3rem;
         line-height: 1.5;
         color: var(--color-gray-600);
-    }
-
-    &.-quote {
-        font-weight: var(--font-weight-semi-bold);
-        font-size: 1.5rem;
-        line-height: 1.4;
-        color: var(--color-white);
-        text-align: center;
-
-        &::before {
-            content: '“';
-        }
-
-        &::after {
-            content: '”';
-        }
-    }
-
-    .card.-person & {
-        color: var(--color-white);
     }
 }
 
@@ -151,67 +101,5 @@
         height: 100%;
 
         cursor: pointer;
-    }
-}
-
-.card__footer {
-    grid-area: footer;
-    display: flex;
-    flex-flow: row wrap;
-    gap: .8rem;
-
-    &.-actions {
-        align-items: flex-end;
-
-        .card.-align-stretch & {
-            display: grid;
-        }
-    }
-
-    .card.-person & {
-        grid-column: 1 / -1;
-        grid-row: 1 / -1;
-        z-index: 1;
-
-        box-sizing: border-box;
-        display: grid;
-        margin: 0;
-        padding: 1.5rem;
-
-        grid-template-columns: 1fr;
-        grid-template-rows: auto auto;
-        place-items: center;
-
-        background: linear-gradient(180deg, rgba(42, 51, 70, 0.85) 0%, rgba(0, 0, 0, 0.85) 100%);
-        opacity: 0;
-
-        transition: opacity .3s ease;
-
-        &:hover,
-        &:focus-visible {
-            opacity: 1;
-        }
-    }
-}
-
-.card__aside {
-    grid-area: aside;
-    display: grid;
-    place-items: start end;
-}
-
-.card__links {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin-inline: auto;
-    text-align: center;
-
-    & > a {
-        &:hover,
-        &:focus-visible {
-            color: var(--color-white);
-        }
     }
 }
