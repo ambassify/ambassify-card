@@ -1,0 +1,88 @@
+:root {
+    --color-white          : #FFFFFF;
+    --color-mercury        : #E6E7E8;
+    --color-green-blue     : #00BD8D;
+    --color-deep-sea       : #008462;
+    --color-shuttle-gray   : #5D6769;
+    --color-dark-slate-gray: #2A3346;
+    --color-black          : #000000;
+
+    --color-gray-50        : #F2F6F7;
+    --color-gray-100       : var(--color-mercury);
+    --color-gray-200       : #CCCCCC;
+    --color-gray-300       : #B3B3B3;
+    --color-gray-400       : #999999;
+    --color-gray-500       : #808080;
+    --color-gray-600       : var(--color-shuttle-gray);
+    --color-gray-700       : #494B50;
+    --color-gray-750       : #293245;
+    --color-gray-800       : var(--color-dark-slate-gray);
+    --color-gray-900       : #151923;
+
+    --rgb-gray-800         : rgb(42,51,70);
+
+    --color-shuttle-gray-500: #656A74;
+
+
+    --color-red-50         : #FFE6E6;
+    --color-red-100        : #FFCCCC;
+    --color-red-200        : #FF9999;
+    --color-red-300        : #FF2929;
+    --color-red-350        : #E3735B;
+    --color-red-400        : #D10000;
+    --color-red-500        : #AD0000;
+    --color-red-600        : #8A0000;
+    --color-red-700        : #660000;
+
+    --color-green-50       : #F0FBF8;
+    --color-green-100      : #C5F0E4;
+    --color-green-200      : #8FE0CA;
+    --color-green-300      : #5CD1B2;
+    --color-green-400      : var(--color-green-blue);
+    --color-green-500      : var(--color-deep-sea);
+    --color-green-600      : #00664C;
+    --color-green-700      : #004D39;
+
+    --color-denim-50       : #C8DAEA;
+    --color-denim-100      : #98B9D5;
+    --color-denim-200      : #6D9AC0;
+    --color-denim-300      : #497DAB;
+    --color-denim-400      : #2A6496;
+    --color-denim-500      : #225078;
+    --color-denim-600      : #193C5A;
+    --color-denim-700      : #11283C;
+
+    --color-periwinkle-50  : #E0E3FD;
+    --color-periwinkle-100 : #C1C6FC;
+    --color-periwinkle-200 : #ACB1E0;
+    --color-periwinkle-300 : #979BC4;
+    --color-periwinkle-400 : #8185A8;
+    --color-periwinkle-500 : #6B6F8C;
+    --color-periwinkle-600 : #565870;
+    --color-periwinkle-700 : #404254;
+
+    --color-yellow-50      : #FEFFD9;
+    --color-yellow-100     : #FDFF8A;
+    --color-yellow-200     : #FAFF04;
+    --color-yellow-300     : #E5EA00;
+    --color-yellow-400     : #D2D602;
+    --color-yellow-500     : #B5B900;
+    --color-yellow-600     : #AC9B04;
+    --color-yellow-700     : #996E00;
+
+    --font-family-base     : 'Glober', sans-serif;
+    --font-family-head     : 'Glober', sans-serif;
+
+    --font-weight-light    : 300;
+    --font-weight-regular  : 400;
+    --font-weight-semibold : 500;
+    --font-weight-semi-bold: var(--font-weight-semibold);
+    --font-weight-bold     : 600;
+    --font-weight-heavy    : 800;
+
+    --min-w: 28;
+    --max-w: 130;
+
+    --min-width: 28rem;
+    --base-padding: 5rem;
+}
