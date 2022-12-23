@@ -2,7 +2,7 @@
 <html lang="en-US" manifest="card.appcache">
     <head>
         <meta charset="utf-8">
-        <title>#{name} | Ambassify</title>
+		<title>#{person.firstName} #{person.lastName} | Ambassify</title>
         <base href="/" />
         <link rel="stylesheet" href="public/styling.css">
 
@@ -10,7 +10,7 @@
         <meta name="mobile-web-app-capable" content="yes">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        <meta name="description" content="All business details of Sitebase" />
+		<meta name="description" content="All business details for #[person.firstName} #{person.lastName} from #{company.name}" />
         <meta name="format-detection" content="telephone=no">
     </head>
     <body>

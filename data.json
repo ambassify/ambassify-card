@@ -1,15 +1,23 @@
 {
-    "website": "https://www.ambassify.com",
     "email": "info@ambassify.com",
     "contact": "https://www.ambassify.com/contact",
     "vat": "BE.0830.870.128",
-    "phone": "+32 (0) 460 20 12 03",
     "iban": "BE64 3630 6398 2452",
     "bic": "BBRUBEBB",
     "linkedin": "https://be.linkedin.com/company/ambassify",
     "instagram": "",
     "twitter": "",
     "facebook": "",
+    "company": {
+        "name": "Ambassify",
+        "phone": "+32 (0) 460 20 12 03",
+        "website": "https://www.ambassify.com",
+        "addressStreet": "",
+        "addressCity": "Beringen",
+        "addressProvince": "Limburg",
+        "addressPostal": "3583",
+        "addressCountry": "Belgium"
+    },
     "persons": [
         {
             "avatar": "wim",

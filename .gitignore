@@ -2,5 +2,6 @@
 .jekyll-cache
 .jekyll-metadata
 vendor
+dist/
 .DS_Store
 node_modules/

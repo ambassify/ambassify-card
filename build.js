@@ -4,12 +4,18 @@ const data = require('./data.json');
 console.log(data.persons);
 
 // Compile the source code
-const compiledFunction = pug.compileFile('src/index.html');
+const compiledCardFunction = pug.compileFile('src/index.html');
+// const compiledVCardFunction = pug.compileFile('src/vCard.vcf');
 
 data.persons.forEach((person) => {
-    const content = compiledFunction({
+    const card = compiledCardFunction({
+        company: data.company,
         person
     });
+    // const vcard = compiledVCardFunction({
+        // company: data.company,
+        // person
+    // });
 
     const dir = 'dist/' + person.firstName.toLowerCase() + '/';
 
@@ -17,5 +23,6 @@ data.persons.forEach((person) => {
         fs.mkdirSync(dir);
     }
 
-    fs.writeFileSync(dir + 'index.html', content);
+    fs.writeFileSync(dir + 'index.html', card);
+    // fs.writeFileSync(dir + 'vCard.vcf', vcard);
 });
