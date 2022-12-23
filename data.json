@@ -1,0 +1,14 @@
+{
+    "persons": [
+        {
+            "firstName": "Wim",
+            "lastName": "Mostmans",
+            "email": "wim@ambassify.com"
+        },
+        {
+            "firstName": "Koen",
+            "lastName": "Stevens",
+            "email": "koen@ambassify.com"
+        }
+    ]
+}
