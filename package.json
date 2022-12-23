@@ -4,8 +4,9 @@
   "description": "NFC-sharable Online Ambassify business cards",
   "main": "src/index.html",
   "scripts": {
-    "build": "rm -rf dist/* && cp -R src/* dist/ && node build.js && npx postcss src/css/styling.css --dir src/public/",
+    "build": "mkdir -p dist/ && rm -rf dist/* && cp -R src/* dist/ && node build.js",
     "watch": "npx postcss src/css/styling.css --dir src/public/ --map --verbose --watch",
+    "serve": "cd dist && python -m http.server",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {

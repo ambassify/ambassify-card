@@ -1,10 +1,9 @@
 BEGIN:VCARD
-N:Mostmans;Wim;;;
-ADR;INTL;PARCEL;WORK:;;Larumseweg, 117;Geel;Antwerp;2440;Belgium
-ADR;DOM;PARCEL;HOME:;;Larumseweg, 117;Geel;Antwerp;2440;Belgium
-EMAIL;INTERNET:wim@sitebase.be
-ORG:Sitebase
-TEL;WORK:+32 472 505 082
-TITLE:Owner
-URL;WORK:https://www.sitebase.be
+N:#{person.lastName};#{person.firstName};;;
+ADR;INTL;PARCEL;WORK:;;#{company.addressStreet};#{company.addressCity};#{company.addressProvince};#{company.addressPostal};#{company.addressCountry}
+EMAIL;INTERNET:#{person.email}
+ORG:#{company.name}
+TEL;WORK:#{company.phone}
+TITLE:#{person.jobTitle}
+URL;WORK:#{company.website}
 END:VCARD
