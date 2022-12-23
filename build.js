@@ -1,5 +1,4 @@
 const fs = require('fs');
-const pug = require('pug');
 const Handlebars = require("handlebars");
 const data = require('./data.json');
 
