@@ -4,7 +4,8 @@
   "description": "NFC-sharable Online Ambassify business cards",
   "main": "src/index.html",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "npx postcss src/css/main.css --dir public/ --map --verbose --watch"
   },
   "repository": {
     "type": "git",
@@ -21,5 +22,24 @@
   "bugs": {
     "url": "https://github.com/ambassify/ambassify-card/issues"
   },
-  "homepage": "https://github.com/ambassify/ambassify-card#readme"
+  "homepage": "https://github.com/ambassify/ambassify-card#readme",
+  "devDependencies": {
+    "glob": "^8.0.3",
+    "postcss": "^8.4.20",
+    "postcss-at-rules-variables": "^0.3.0",
+    "postcss-clamp": "^4.1.0",
+    "postcss-cli": "^10.1.0",
+    "postcss-css-variables": "^0.18.0",
+    "postcss-custom-media": "^9.0.1",
+    "postcss-define-function": "^0.1.2",
+    "postcss-each": "^1.1.0",
+    "postcss-extend-rule": "^4.0.0",
+    "postcss-for": "^2.1.1",
+    "postcss-functions": "^4.0.2",
+    "postcss-hexrgba": "^2.1.0",
+    "postcss-import": "^15.1.0",
+    "postcss-mixins": "^9.0.4",
+    "postcss-nested": "^6.0.0",
+    "postcss-preset-env": "^7.8.3"
+  }
 }
