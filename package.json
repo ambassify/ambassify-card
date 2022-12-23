@@ -5,7 +5,8 @@
   "main": "src/index.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "watch": "npx postcss src/css/main.css --dir public/ --map --verbose --watch"
+    "watch": "npx postcss src/css/main.css --dir public/ --map --verbose --watch",
+    "build": "npx postcss src/css/main.css --dir public/"
   },
   "repository": {
     "type": "git",
