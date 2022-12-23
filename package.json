@@ -5,6 +5,7 @@
   "main": "src/index.html",
   "scripts": {
     "build": "rm -rf dist/* && cp -R src/* dist/ && node build.js && npx postcss src/css/styling.css --dir public/",
+    "watch": "npx postcss src/css/styling.css --dir public/ --map --verbose --watch",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
