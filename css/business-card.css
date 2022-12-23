@@ -34,16 +34,33 @@
     margin-inline: auto;
     margin-bottom: 6rem;
 
-    border-radius: 50%;
     overflow: hidden;
 
-    img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    > img {
+        border-radius: 50%;
         display: block;
         width: 100%;
         height: 100%;
         margin: 0;
         padding: 0;
         object-fit: cover;
+    }
+
+    > .qrcode {
+        display: none;
+    }
+}
+
+.business-card__image--qr {
+    .avatar {
+        display: none;
+    }
+    .qrcode {
+        display: block;
     }
 }
 
@@ -75,9 +92,10 @@
         margin-bottom: 3rem;
     }
 
-    &.-small {
+    &.-with-icon {
         display: flex;
         gap: 1rem;
+        align-items: center;
     }
 }
 
