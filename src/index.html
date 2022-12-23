@@ -3,6 +3,7 @@
     <head>
         <meta charset="utf-8">
         <title>#{name} | Ambassify</title>
+        <base href="/" />
         <link rel="stylesheet" href="public/styling.css">
 
         <meta name="apple-mobile-web-app-capable" content="yes">
@@ -41,10 +42,10 @@
                     <img src="public/images/koen.png" width="300" height="300" alt="Picture of Koen Stevens">
                 </div>
                 <div class="business-card__body">
-                    <div class="business-card__text -emphasized">#{firstName} #{lastName}</div>
-                    <div class="business-card__text -soft-emphasized">#{jobTitle}</div>
-                    <div class="business-card__text -small">#{phone}</div>
-                    <div class="business-card__text -small">#{email}</div>
+                    <div class="business-card__text -emphasized">#{person.firstName} #{person.lastName}</div>
+                    <div class="business-card__text -soft-emphasized">#{person.jobTitle}</div>
+                    <div class="business-card__text -small">#{person.phone}</div>
+                    <div class="business-card__text -small">#{person.email}</div>
                 </div>
                 <footer class="business-card__footer">
                     <div>

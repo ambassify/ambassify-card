@@ -7,7 +7,9 @@ console.log(data.persons);
 const compiledFunction = pug.compileFile('src/index.html');
 
 data.persons.forEach((person) => {
-    const content = compiledFunction(person);
+    const content = compiledFunction({
+        person
+    });
 
     const dir = 'dist/' + person.firstName.toLowerCase() + '/';
 
