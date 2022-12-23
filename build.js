@@ -8,6 +8,10 @@ const cardTemplate = Handlebars.compile(vcard.toString());
 const page = fs.readFileSync('src/index.html');
 const pageTemplate = Handlebars.compile(page.toString());
 
+Handlebars.registerHelper('url', function () {
+    return this.person.firstName.toLowerCase();
+})
+
 data.persons.forEach((person) => {
 
 	const cardSource = cardTemplate({
