@@ -34,8 +34,6 @@
     margin-inline: auto;
     margin-bottom: 6rem;
 
-    overflow: hidden;
-
     display: flex;
     justify-content: center;
     align-items: center;
@@ -52,6 +50,11 @@
 
     > .qrcode {
         display: none;
+
+        canvas {
+            width: 100%;
+            height: 100%;
+        }
     }
 }
 
