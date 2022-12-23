@@ -12,6 +12,7 @@
     "facebook": "",
     "persons": [
         {
+            "avatar": "wim",
             "firstName": "Wim",
             "lastName": "Mostmans",
             "email": "wim@ambassify.com",
@@ -24,6 +25,7 @@
             "facebook": ""
         },
         {
+            "avatar": "koen",
             "firstName": "Koen",
             "lastName": "Stevens",
             "email": "koen@ambassify.com",
@@ -36,6 +38,7 @@
             "facebook": ""
         },
         {
+            "avatar": "vincent",
             "firstName": "Vincent",
             "lastName": "De Caluwe",
             "email": "vincent@ambassify.com",
@@ -48,6 +51,7 @@
             "facebook": ""
         },
         {
+            "avatar": "camilla",
             "firstName": "Camilla",
             "lastName": "Brambilla Pisoni",
             "email": "camilla@ambassify.com",
@@ -60,6 +64,7 @@
             "facebook": ""
         },
         {
+            "avatar": "elise",
             "firstName": "Elise",
             "lastName": "Breban",
             "email": "elise@ambassify.com",
@@ -72,6 +77,7 @@
             "facebook": ""
         },
         {
+            "avatar": "gaël",
             "firstName": "Gaël",
             "lastName": "Leroy",
             "email": "gael@ambassify.com",
@@ -84,6 +90,7 @@
             "facebook": ""
         },
         {
+            "avatar": "gert",
             "firstName": "Gert",
             "lastName": "Sallaerts",
             "email": "gert@ambassify.com",
@@ -96,6 +103,7 @@
             "facebook": ""
         },
         {
+            "avatar": "jorgen",
             "firstName": "Jorgen",
             "lastName": "Evens",
             "email": "jorgen@ambassify.com",
@@ -108,6 +116,7 @@
             "facebook": ""
         },
         {
+            "avatar": "kirsten",
             "firstName": "Kirsten",
             "lastName": "Krawinkel",
             "email": "kirsten@ambassify.com",
@@ -120,6 +129,7 @@
             "facebook": ""
         },
         {
+            "avatar": "laurens",
             "firstName": "Laurens",
             "lastName": "Bobbaers",
             "email": "laurens@ambassify.com",
@@ -132,6 +142,7 @@
             "facebook": ""
         },
         {
+            "avatar": "marie",
             "firstName": "Marie",
             "lastName": "Beckers",
             "email": "marie@ambassify.com",
@@ -144,6 +155,7 @@
             "facebook": ""
         },
         {
+            "avatar": "marta",
             "firstName": "Marta",
             "lastName": "Grabowska",
             "email": "marta@ambassify.com",
@@ -156,6 +168,7 @@
             "facebook": ""
         },
         {
+            "avatar": "maxim",
             "firstName": "Maxim",
             "lastName": "Baeten",
             "email": "maxim@ambassify.com",
@@ -168,6 +181,7 @@
             "facebook": ""
         },
         {
+            "avatar": "nils",
             "firstName": "Nils",
             "lastName": "Hölscher",
             "email": "nils@ambassify.com",
@@ -180,6 +194,7 @@
             "facebook": ""
         },
         {
+            "avatar": "rik",
             "firstName": "Rik",
             "lastName": "Lagey",
             "email": "rik@ambassify.com",
@@ -192,6 +207,7 @@
             "facebook": ""
         },
         {
+            "avatar": "ritchie",
             "firstName": "Ritchie",
             "lastName": "Jacobs",
             "email": "ritchie@ambassify.com",
@@ -204,6 +220,7 @@
             "facebook": ""
         },
         {
+            "avatar": "sander",
             "firstName": "Sander",
             "lastName": "Decuyper",
             "email": "sander@ambassify.com",
@@ -216,6 +233,7 @@
             "facebook": ""
         },
         {
+            "avatar": "sara",
             "firstName": "Sara",
             "lastName": "Bozzi",
             "email": "sara@ambassify.com",
@@ -228,6 +246,7 @@
             "facebook": ""
         },
         {
+            "avatar": "stefan",
             "firstName": "Stefan",
             "lastName": "Hellings",
             "email": "stefan@ambassify.com",
@@ -240,6 +259,7 @@
             "facebook": ""
         },
         {
+            "avatar": "yannic",
             "firstName": "Yannic",
             "lastName": "Schelfhout",
             "email": "yannic@ambassify.com",
