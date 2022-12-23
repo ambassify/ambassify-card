@@ -75,9 +75,10 @@
         margin-bottom: 3rem;
     }
 
-    &.-small {
+    &.-with-icon {
         display: flex;
         gap: 1rem;
+        align-items: center;
     }
 }
 

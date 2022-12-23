@@ -343,9 +343,10 @@ img {
 
         margin-bottom: 3rem;
     }
-.business-card__text.-small {
+.business-card__text.-with-icon {
         display: flex;
         gap: 1rem;
+        align-items: center;
     }
 .business-card__footer {
     grid-area: footer;
