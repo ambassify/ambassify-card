@@ -2,9 +2,6 @@ const fs = require('fs');
 const Handlebars = require("handlebars");
 const data = require('./data.json');
 
-// Compile the source code
-// const compiledCardFunction = pug.compileFile('src/index.html');
-// const compiledVCardFunction = pug.compileFile('src/vCard.vcf');
 const vcard = fs.readFileSync('src/vCard.vcf');
 const cardTemplate = Handlebars.compile(vcard.toString());
 
@@ -21,12 +18,6 @@ data.persons.forEach((person) => {
 		person: person,
 		company: data.company
 	});
-	console.log(cardSource);
-
-    // const card = compiledCardFunction({
-        // company: data.company,
-        // person
-    // });
 
 	const dir = 'dist/' + person.firstName.toLowerCase() + '/';
 
