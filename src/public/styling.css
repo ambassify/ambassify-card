@@ -241,7 +241,7 @@ img {
     display: grid;
     grid-gap: 3rem;
     gap: 3rem;
-    grid-template-columns: repeat(auto-fit, minmax(16.7rem, 26.9rem));
+    grid-template-columns: repeat(auto-fit, minmax(16.7rem, 1fr));
     margin-bottom: 5rem;
     padding-left: 5rem;
     padding-right: 5rem;
@@ -409,6 +409,16 @@ img {
     margin: 0;
     border-radius: .8rem;
     overflow: hidden;
+    box-shadow:
+        0px 170px 80px rgba(0, 0, 0, 0.09),
+        0px 78.5962px 36.9864px rgba(0, 0, 0, 0.0667508),
+        0px 44.9709px 21.1628px rgba(0, 0, 0, 0.0564103),
+        0px 27.297px 12.8457px rgba(0, 0, 0, 0.0485953),
+        0px 16.4477px 7.74008px rgba(0, 0, 0, 0.0414047),
+        0px 9.15912px 4.31018px rgba(0, 0, 0, 0.0335897),
+        0px 3.93928px 1.85378px rgba(0, 0, 0, 0.0232492)
+    ;
+
 }
 .card__image {
     grid-area: image;
