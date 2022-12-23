@@ -39,7 +39,8 @@
                     </svg>
                 </header>
                 <div class="business-card__image">
-                    <img src="public/images/#{person.avatar}.png" width="300" height="300" alt="Picture of #{person.firstName} #{person.lastName}">
+                    <img class="avatar" src="public/images/#{person.avatar}.png" width="300" height="300" alt="Picture of #{person.firstName} #{person.lastName}">
+                    <div class="qrcode"></div>
                 </div>
                 <div class="business-card__body">
                     <div class="business-card__text -emphasized">#{person.firstName} #{person.lastName}</div>
@@ -90,5 +91,13 @@
             </div>
         </div>
         <footer class="footer">&copy; Ambassify</footer>
+        <script src="js/qrcode.min.js"></script>
+        <script>
+            const avatar = document.querySelector('.business-card__image');
+            new QRCode(document.querySelector(".qrcode"), "https://card.ambassify.com/#{person.firstName}");
+            avatar.addEventListener('click', () => {
+                avatar.classList.toggle("business-card__image--qr");
+            });
+        </script>
     </body>
 </html>
