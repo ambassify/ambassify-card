@@ -2,7 +2,7 @@
 <html lang="en-US" manifest="card.appcache">
     <head>
         <meta charset="utf-8">
-		<title>#{person.firstName} #{person.lastName} | Ambassify</title>
+		<title>{{person.firstName}} {{person.lastName}} | Ambassify</title>
         <base href="/" />
         <link rel="stylesheet" href="public/styling.css">
 
@@ -10,7 +10,7 @@
         <meta name="mobile-web-app-capable" content="yes">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-		<meta name="description" content="All business details for #[person.firstName} #{person.lastName} from #{company.name}" />
+		<meta name="description" content="All business details for {[person.firstName}} {{person.lastName}} from {{company.name}}" />
         <meta name="format-detection" content="telephone=no">
     </head>
     <body>
@@ -39,23 +39,23 @@
                     </svg>
                 </header>
                 <div class="business-card__image">
-                    <img class="avatar" src="public/images/#{person.avatar}.png" width="300" height="300" alt="Picture of #{person.firstName} #{person.lastName}">
+					<img class="avatar" src="public/images/{{person.avatar}}.png" width="300" height="300" alt="Picture of {{person.firstName}} {{person.lastName}}">
                     <div class="qrcode"></div>
                 </div>
                 <div class="business-card__body">
-                    <div class="business-card__text -emphasized">#{person.firstName} #{person.lastName}</div>
-                    <div class="business-card__text -soft-emphasized">#{person.jobTitle}</div>
+					<div class="business-card__text -emphasized">{{person.firstName}} {{person.lastName}}</div>
+					<div class="business-card__text -soft-emphasized">{{person.jobTitle}}</div>
                     <div class="business-card__text -with-icon">
                         <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M13.3334 15.0807L10.986 10.5507C10.9807 10.5533 9.67002 11.1973 9.61002 11.2247C8.11669 11.9487 5.07736 6.01133 6.53736 5.22867L7.92602 4.54467L5.59736 0L4.19336 0.692667C-0.607976 3.196 7.01536 18.014 11.9267 15.7693C12.0074 15.7327 13.328 15.0833 13.3334 15.0807Z" fill="black"/>
                         </svg>
-                        <span>#{person.phone}</span>
+						<span>{{person.phone}}</span>
                     </div>
                     <div class="business-card__text -with-icon">
                         <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M0 2V14H16V2H0ZM4.41533 7.286L1.33333 11.094V4.78867L4.41533 7.286ZM1.65467 3.33333H14.3447L8 8.47533L1.65467 3.33333ZM5.45067 8.12533L8 10.1913L10.5533 8.122L14.2947 12.6667H1.77533L5.45067 8.12533ZM11.5893 7.28267L14.6667 4.78867V11.0207L11.5893 7.28267Z" fill="black"/>
                         </svg>
-                        <span>#{person.email}</span>
+						<span>{{person.email}}</span>
                     </div>
                 </div>
                 <footer class="business-card__footer">
@@ -94,7 +94,7 @@
         <script src="js/qrcode.min.js"></script>
         <script>
             const avatar = document.querySelector('.business-card__image');
-            new QRCode(document.querySelector(".qrcode"), "https://card.ambassify.com/#{person.firstName}");
+			new QRCode(document.querySelector(".qrcode"), "https://card.ambassify.com/{{person.firstName}}");
             avatar.addEventListener('click', () => {
                 avatar.classList.toggle("business-card__image--qr");
             });

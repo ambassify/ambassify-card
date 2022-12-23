@@ -1,9 +1,9 @@
 BEGIN:VCARD
-N:#{person.lastName};#{person.firstName};;;
-ADR;INTL;PARCEL;WORK:;;#{company.addressStreet};#{company.addressCity};#{company.addressProvince};#{company.addressPostal};#{company.addressCountry}
-EMAIL;INTERNET:#{person.email}
-ORG:#{company.name}
-TEL;WORK:#{company.phone}
-TITLE:#{person.jobTitle}
-URL;WORK:#{company.website}
+N:{{person.lastName}};{{person.firstName}};;;
+ADR;INTL;PARCEL;WORK:;;{{company.addressStreet}};{{company.addressCity}};{{company.addressProvince}};{{company.addressPostal}};{{company.addressCountry}}
+EMAIL;INTERNET:{{person.email}}
+ORG:{{company.name}}
+TEL;WORK:{{company.phone}}
+TITLE:{{person.jobTitle}}
+URL;WORK:{{company.website}}
 END:VCARD
