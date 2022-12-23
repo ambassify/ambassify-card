@@ -1,0 +1,25 @@
+{
+  "name": "ambassify-card",
+  "version": "1.0.0",
+  "description": "NFC-sharable Online Ambassify business cards",
+  "main": "src/index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ambassify/ambassify-card.git"
+  },
+  "keywords": [
+    "Ambassify",
+    "business-cards",
+    "NFC",
+    "Hackathon"
+  ],
+  "author": "Ambassify",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ambassify/ambassify-card/issues"
+  },
+  "homepage": "https://github.com/ambassify/ambassify-card#readme"
+}
