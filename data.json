@@ -1,14 +1,255 @@
 {
+    "website": "https://www.ambassify.com",
+    "email": "info@ambassify.com",
+    "contact": "https://www.ambassify.com/contact",
+    "vat": "BE.0830.870.128",
+    "phone": "+32 (0) 460 20 12 03",
+    "iban": "BE64 3630 6398 2452",
+    "bic": "BBRUBEBB",
+    "linkedin": "https://be.linkedin.com/company/ambassify"
+    "instagram": "",
+    "twitter": "",
+    "facebook": "",
     "persons": [
         {
             "firstName": "Wim",
             "lastName": "Mostmans",
             "email": "wim@ambassify.com"
+            "jobTitle": "CTO/CISO and Co-founder",
+            "department": "Development",
+            "phone": ""
+            "linkedin": "https://be.linkedin.com/in/sitebase"
+            "instagram": "",
+            "twitter": "",
+            "facebook": "",
         },
         {
             "firstName": "Koen",
             "lastName": "Stevens",
             "email": "koen@ambassify.com"
+            "jobTitle": "CEO & Co-founder",
+            "department": "Sales",
+            "phone": ""
+            "linkedin": ""
+            "instagram": "",
+            "twitter": "",
+            "facebook": "",
+        },
+        {
+            "firstName": "Vincent",
+            "lastName": "De Caluwe",
+            "email": "vincent@ambassify.com"
+            "jobTitle": "Data analyst",
+            "department": "Development",
+            "phone": ""
+            "linkedin": ""
+            "instagram": "",
+            "twitter": "",
+            "facebook": "",
+        },
+        {
+            "firstName": "Camilla",
+            "lastName": "Brambilla Pisoni",
+            "email": "camilla@ambassify.com"
+            "jobTitle": "Creative Copywriter & Content Creator",
+            "department": "Marketing",
+            "phone": ""
+            "linkedin": ""
+            "instagram": "",
+            "twitter": "",
+            "facebook": "",
+        },
+        {
+            "firstName": "Elise",
+            "lastName": "Breban",
+            "email": "elise@ambassify.com"
+            "jobTitle": "Head of Customer Success",
+            "department": "Customer Success",
+            "phone": ""
+            "linkedin": ""
+            "instagram": "",
+            "twitter": "",
+            "facebook": "",
+        },
+        {
+            "firstName": "Gaël",
+            "lastName": "Leroy",
+            "email": "gael@ambassify.com"
+            "jobTitle": "Frontend Developer",
+            "department": "Development",
+            "phone": ""
+            "linkedin": ""
+            "instagram": "",
+            "twitter": "",
+            "facebook": "",
+        },
+        {
+            "firstName": "Gert",
+            "lastName": "Sallaerts",
+            "email": "gert@ambassify.com"
+            "jobTitle": "Product Manager & Full-stack Developer",
+            "department": "Development",
+            "phone": ""
+            "linkedin": ""
+            "instagram": "",
+            "twitter": "",
+            "facebook": "",
+        },
+        {
+            "firstName": "Jorgen",
+            "lastName": "Evens",
+            "email": "jorgen@ambassify.com"
+            "jobTitle": "Data Protection Officer & Full-stack developer",
+            "department": "Development",
+            "phone": ""
+            "linkedin": ""
+            "instagram": "",
+            "twitter": "",
+            "facebook": "",
+        },
+        {
+            "firstName": "Kirsten",
+            "lastName": "Krawinkel",
+            "email": "kirsten@ambassify.com"
+            "jobTitle": "HR & Payroll support",
+            "department": "HR",
+            "phone": ""
+            "linkedin": ""
+            "instagram": "",
+            "twitter": "",
+            "facebook": "",
+        },
+        {
+            "firstName": "Laurens",
+            "lastName": "Bobbaers",
+            "email": "laurens@ambassify.com"
+            "jobTitle": "Customer Success Manager",
+            "department": "Customer Success",
+            "phone": ""
+            "linkedin": ""
+            "instagram": "",
+            "twitter": "",
+            "facebook": "",
+        },
+        {
+            "firstName": "Marie",
+            "lastName": "Beckers",
+            "email": "marie@ambassify.com"
+            "jobTitle": "Operations Officer",
+            "department": "Operations",
+            "phone": ""
+            "linkedin": ""
+            "instagram": "",
+            "twitter": "",
+            "facebook": "",
+        },
+        {
+            "firstName": "Marta",
+            "lastName": "Grabowska",
+            "email": "marta@ambassify.com"
+            "jobTitle": "Graphic Designer",
+            "department": "Design",
+            "phone": ""
+            "linkedin": ""
+            "instagram": "",
+            "twitter": "",
+            "facebook": "",
+        },
+        {
+            "firstName": "Maxim",
+            "lastName": "Baeten",
+            "email": "maxim@ambassify.com"
+            "jobTitle": "Freelance Marketeer",
+            "department": "Marketing",
+            "phone": ""
+            "linkedin": ""
+            "instagram": "",
+            "twitter": "",
+            "facebook": "",
+        },
+        {
+            "firstName": "Nils",
+            "lastName": "Hölscher",
+            "email": "nils@ambassify.com"
+            "jobTitle": "Account Executive",
+            "department": "Sales",
+            "phone": ""
+            "linkedin": ""
+            "instagram": "",
+            "twitter": "",
+            "facebook": "",
+        },
+        {
+            "firstName": "Rik",
+            "lastName": "Lagey",
+            "email": "rik@ambassify.com"
+            "jobTitle": "Partner & Word-of-mouth Director",
+            "department": "Sales",
+            "phone": ""
+            "linkedin": ""
+            "instagram": "",
+            "twitter": "",
+            "facebook": "",
+        },
+        {
+            "firstName": "Ritchie",
+            "lastName": "Jacobs",
+            "email": "ritchie@ambassify.com"
+            "jobTitle": "Software Engineer",
+            "department": "Development",
+            "phone": ""
+            "linkedin": ""
+            "instagram": "",
+            "twitter": "",
+            "facebook": "",
+        },
+        {
+            "firstName": "Sander",
+            "lastName": "Decuyper",
+            "email": "sander@ambassify.com"
+            "jobTitle": "Team lead marketing",
+            "department": "Marketing",
+            "phone": ""
+            "linkedin": ""
+            "instagram": "",
+            "twitter": "",
+            "facebook": "",
+        },
+        {
+            "firstName": "Sara",
+            "lastName": "Bozzi",
+            "email": "sara@ambassify.com"
+            "jobTitle": "Social Media Manager",
+            "department": "Marketing",
+            "phone": ""
+            "linkedin": ""
+            "instagram": "",
+            "twitter": "",
+            "facebook": "",
+        },
+        {
+            "firstName": "Stefan",
+            "lastName": "Hellings",
+            "email": "stefan@ambassify.com"
+            "jobTitle": "Frontend Developer",
+            "department": "Marketing",
+            "phone": ""
+            "linkedin": ""
+            "instagram": "",
+            "twitter": "",
+            "facebook": "",
+        },
+        {
+            "firstName": "Yannic",
+            "lastName": "Schelfhout",
+            "email": "yannic@ambassify.com"
+            "jobTitle": "Account Executive",
+            "department": "Sales",
+            "phone": ""
+            "linkedin": ""
+            "instagram": "",
+            "twitter": "",
+            "facebook": "",
         }
     ]
 }
