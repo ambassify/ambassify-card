@@ -1,28 +1,34 @@
 const fs = require('fs');
-const pug = require('pug');
+const Handlebars = require("handlebars");
 const data = require('./data.json');
-console.log(data.persons);
 
-// Compile the source code
-const compiledCardFunction = pug.compileFile('src/index.html');
-// const compiledVCardFunction = pug.compileFile('src/vCard.vcf');
+const vcard = fs.readFileSync('src/vCard.vcf');
+const cardTemplate = Handlebars.compile(vcard.toString());
+
+const page = fs.readFileSync('src/card.html');
+const pageTemplate = Handlebars.compile(page.toString());
+
+Handlebars.registerHelper('url', function () {
+    return this.person.firstName.toLowerCase();
+})
 
 data.persons.forEach((person) => {
-    const card = compiledCardFunction({
-        company: data.company,
-        person
-    });
-    // const vcard = compiledVCardFunction({
-        // company: data.company,
-        // person
-    // });
 
-    const dir = 'dist/' + person.firstName.toLowerCase() + '/';
+	const cardSource = cardTemplate({
+		person: person,
+		company: data.company
+	});
+	const pageSource = pageTemplate({
+		person: person,
+		company: data.company
+	});
 
-    if (!fs.existsSync(dir)){
-        fs.mkdirSync(dir);
-    }
+	const dir = 'dist/' + person.firstName.toLowerCase() + '/';
 
-    fs.writeFileSync(dir + 'index.html', card);
-    // fs.writeFileSync(dir + 'vCard.vcf', vcard);
+	if (!fs.existsSync(dir)){
+		fs.mkdirSync(dir);
+	}
+
+	fs.writeFileSync(dir + 'vCard.vcf', cardSource);
+	fs.writeFileSync(dir + 'index.html', pageSource);
 });
