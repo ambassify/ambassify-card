@@ -119,4 +119,14 @@
         border-bottom-left-radius: 4.5rem; /* less then 50px to avoid sub-pixel rendering background bleed */
         border-bottom-right-radius: 4.5rem; /* less then 50px to avoid sub-pixel rendering background bleed */
     }
+
+    a {
+        color: currentColor;
+        text-decoration: none;
+
+        &:hover,
+        &:focus-visible {
+            text-decoration: underline;
+        }
+    }
 }

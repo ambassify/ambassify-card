@@ -387,6 +387,18 @@ img {
         border-bottom-left-radius: 4.5rem; /* less then 50px to avoid sub-pixel rendering background bleed */
         border-bottom-right-radius: 4.5rem; /* less then 50px to avoid sub-pixel rendering background bleed */
     }
+.business-card__footer a {
+        color: currentColor;
+        text-decoration: none;
+    }
+.business-card__footer a:hover,
+        .business-card__footer a.focus-visible {
+            text-decoration: underline;
+        }
+.business-card__footer a:hover,
+        .business-card__footer a:focus-visible {
+            text-decoration: underline;
+        }
 .footer {
     display: block;
     text-align: center;
